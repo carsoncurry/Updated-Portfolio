@@ -1,0 +1,56 @@
+body {
+    background: url("../images/what-the-hex.png");
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    float: left;
+}
+
+.pics {
+    margin: 40px;
+}
+
+.selected {
+    height: 300px;
+    width: 300px;
+}
+
+.profile {
+    height: 250px;
+    width: auto;
+    margin-bottom: 25px;
+    float: left;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+h5 {
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    line-height: 30px;
+    height: 30px;
+    width: 300px;
+}
+
+header, 
+footer {
+    height: 50px;
+    line-height: 50px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.fab {
+    margin-left: 15px;
+    margin-right: 15px;
+}
